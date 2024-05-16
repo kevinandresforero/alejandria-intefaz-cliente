@@ -1,0 +1,58 @@
+# Directorios y archivos generados
+/dist/
+/node_modules/
+/.pnp
+.pnp.js
+
+# Archivos de entorno y credenciales
+.env
+.env.*
+
+# Archivos de editor y sistema operativo
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+.idea/
+*.vscode/
+
+# Archivos de caché y logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.yarn-integrity
+.cache/
+
+# Archivos de pruebas de cobertura
+/coverage/
+
+# Archivos de depuración y profiling
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+*.swp
+*.tgz
+
+# Builds y archivos de proyecto específicos de entorno
+*.env.*
+.env.test
+
+# Archivos de compilación de Vue
+dist/
+tmp/
+/test/unit/coverage/
+/test/e2e/reports/
+selenium-debug.log
+
+# Otros archivos y directorios que pueden ser ignorados
+.history/
+.vscode/
+*.sln
+*.sw?
+
+# Archivos de pruebas de unidad/integración
+/test/unit/coverage/
+/test/e2e/reports/
